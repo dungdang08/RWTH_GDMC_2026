@@ -4,6 +4,8 @@ Minecraft settlement generation with FQVAE-based building reconstruction.
 
 This project is part of the RWTH Aachen University practical lab **Applications of AI in Games**. The project investigates whether a **Factorised Quantised Variational AutoEncoder (FQVAE)**, originally designed for Minecraft terrain generation, can be adapted to voxel-based building reconstruction and integrated into a GDMC settlement-generation pipeline.
 
+The project is intended as a submission to the **GDMC (Generative Design in Minecraft) Competition 2026**.
+
 ## Project Overview
 
 The current pipeline:
