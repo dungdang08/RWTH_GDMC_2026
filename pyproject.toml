@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "rwth-gdmc-2026"
+version = "0.1.0"
+description = "RWTH Practical Lab Project: GDMC AI Settlement Generation 2025"
+authors = [
+    "Hoang Dung Dang <dung.dang@rwth-aachen.de>",
+    "Christian Herzgen <christian.herzgen@rwth-aachen.de>"
+]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python      =   ">=3.10,<3.14.1"
+gdpc        =   "^8.0.0"
+nbtlib      =   "2.0.4"
+pandas      =   "2.2.3"
+numpy       =   "2.2.4"
+pillow      =   "11.1.0"
+scipy       =   "1.15.2"
+matplotlib  =   "3.9.0"
+seaborn     =   "0.13.2"
+torch       =   "^2.11.0"
+einops      =   "^0.8.2"
+pyvista = "^0.48.2"
+torchvision = "^0.27.0"
+panel = "^1.8.10"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.18.1"
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^7.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
